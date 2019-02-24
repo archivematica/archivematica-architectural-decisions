@@ -1,0 +1,25 @@
+---
+---
+
+header {
+  background-image: linear-gradient(to right, #0e5d8f 0, #0971b2 100%);
+  margin-bottom: 8px;
+}
+
+header h1 {
+  padding: 10px;
+}
+
+header h1 a,
+header h1 a:focus,
+header h1 a:hover {
+  color: white !important;
+}
+
+#archivematica-architectural-decision-records {
+  display: none;
+}
+
+.container h1 {
+  border-bottom: 3px solid #0971b2;
+}
