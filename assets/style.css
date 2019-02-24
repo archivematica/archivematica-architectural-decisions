@@ -4,16 +4,26 @@
 header {
   background-image: linear-gradient(to right, #0e5d8f 0, #0971b2 100%);
   margin-bottom: 8px;
+  position: relative;
 }
 
 header h1 {
   padding: 10px;
+  margin-right: 100px;
 }
 
 header h1 a,
 header h1 a:focus,
 header h1 a:hover {
   color: white !important;
+}
+
+#github {
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  top: 10px;
+  right: 10px;
 }
 
 #archivematica-architectural-decision-records {
