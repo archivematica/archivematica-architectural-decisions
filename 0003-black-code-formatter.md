@@ -1,5 +1,7 @@
 # Black code formatter
 
+* Status: proposed
+
 ## Context and problem statement
 
 Archivematica code style is inconsistent and controversial. Formatting is a
@@ -30,6 +32,10 @@ Chosen option: "black", because:
 * Zero configuration, sane defaults.
 * Adopted by popular projects such [responder][5] or [pytest][6].
 
+## Links
+
+* [Issue 393][7].
+
 [0]: https://www.python.org/dev/peps/pep-0008/
 [1]: https://github.com/google/yapf
 [2]: https://github.com/hhatto/autopep8
@@ -37,3 +43,4 @@ Chosen option: "black", because:
 [4]: https://github.com/ambv/black
 [5]: https://github.com/kennethreitz/responder
 [6]: https://github.com/pytest-dev/pytest
+[7]: https://github.com/archivematica/Issues/issues/393
