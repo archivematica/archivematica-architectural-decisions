@@ -1,5 +1,7 @@
 # JSON-encoded workflow
 
+* Status: accepted
+
 ## Context and problem statement
 
 The core of Archivematica is a server application that coordinates work across
