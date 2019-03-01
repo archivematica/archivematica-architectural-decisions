@@ -1,5 +1,7 @@
 # Archivematica Architectural Decision Records
 
+These are the currently accepted records:
+
 <!-- markdownlint-disable MD013 -->
 <!-- adrlog -->
 
@@ -9,6 +11,8 @@
 
 <!-- adrlogstop -->
 <!-- markdownlint-enable MD013 -->
+
+New proposals must be submitted as pull requests.
 
 ---
 
