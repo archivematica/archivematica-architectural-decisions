@@ -1,6 +1,6 @@
 # Black code formatter
 
-* Status: proposed
+* Status: accepted
 
 ## Context and problem statement
 
