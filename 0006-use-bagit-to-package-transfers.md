@@ -1,4 +1,4 @@
-# Use Bagit to package transfers
+# Use BagIt to package transfers
 
 * Status: accepted
 * Deciders: Justin Simpson, Jesus Garcia Crespo, Peter Van Garderen
