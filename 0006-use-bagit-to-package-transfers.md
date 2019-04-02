@@ -24,19 +24,20 @@ Chosen option: Option 2 was chosen because SFU Archives wanted the ability to cr
 
 The decision was made to convert transfers into self-describing Bagit packages that mirrored Archivematica's AIPs so that Archivematica's transfer backlog could be rebuilt in the event of a lost or destroyed pipeline. Wherever feasible, the transfer metadata used to restore a Bagit package from backlog is written to its METS file.
 
-### Positive consequences <!-- optional -->
+### Positive consequences
 
 * [e.g., improvement of quality attribute satisfaction, follow-up decisions
   required, …]
 * …
 
-### Negative consequences <!-- optional -->
+### Negative consequences
 
 * [e.g., compromising quality attribute, follow-up decisions required, …]
 * …
 
 
 ## Links 
+
 * Main issue in GitHub: [#391][0].
 
 [0]: https://github.com/archivematica/Issues/issues/391

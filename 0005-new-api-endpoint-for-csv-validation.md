@@ -18,7 +18,7 @@ manifest could be validated prior to going through the preservation process.
 Both of these examples would benefit from a validation service that a user (or
 automated system) could access prior to ingest into Archivematica.
 
-## Decision drivers <!-- optional -->
+## Decision drivers
 
 * More closely integrate two open source projects: Archivematica and Avalon
 * [Feature request](https://github.com/archivematica/Issues/issues/563) for
@@ -58,25 +58,25 @@ Response: JSON
     message: Approval or non-approval, depending on service output
 ```
 
-### Positive consequences <!-- optional -->
+### Positive consequences
 
 * Fulfills requirement of Avalon/Archivematica integration work.
 * Relatively small feature with big potential benefits.
 * Lays foundation for more development in the future.
 
-### Negative consequences <!-- optional -->
+### Negative consequences
 
 * Code must be maintained and tested over time.
 * User would need API expertise to benefit from this feature.
 * Implementation -- timeouts on very big CSVs?
 
-## Pros and cons of the options <!-- optional -->
+## Pros and cons of the options
 
 Options are discussed with pros/cons outlined in the linked issue and pull
 request. Some are implicit in the above decision outcome and positive/negative
 consequences sections.
 
-## Links <!-- optional -->
+## Links
 
 * [Issue #563, "Problem: It is difficult to validate rights.csv and metadata.csv before ingest"](https://github.com/archivematica/Issues/issues/563)
 * [Automation-tools PR #98, Add script for validating Avalon Media System manifest CSV](https://github.com/artefactual/automation-tools/pull/98)
