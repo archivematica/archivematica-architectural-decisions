@@ -1,6 +1,6 @@
 # Use BagIt to package transfers
 
-* Status: accepted
+* Status: proposed
 * Deciders: Justin Simpson, Jesus Garcia Crespo, Peter Van Garderen
 * Date: 2019-01-01
 
