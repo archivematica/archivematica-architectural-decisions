@@ -8,16 +8,17 @@
 
 The Simon Fraser University Archives is a long-time Archivematica user. They
 recognized that there is often a long-period between receiving digital materials
-from donors and an archivist creating a SIP for long-term archival storage. SFU
-Archives wanted the ability to perform minimal digital preservation tasks, such
-as those provided by Archivematica's Transfer functionality, and then return to
-the creation of SIPs from backlog at an undetermined future time, perhaps
-several years in the future. This meant that transfer backlogs are used for
-long-term storage of content and that users should expect it to be as durable as
-AIP storage for maintaining accurate metadata over pipeline upgrades, migrations
-or re-indexes. To enable this, the decision was made to package backlog
-transfers as BagIt packages as is already done for archival information
-packages.
+from donors and an archivist creating a Submission Information Package (SIP) for
+long-term archival storage. SFU Archives wanted the ability to perform minimal
+digital preservation tasks, such as those provided by Archivematica's Transfer
+functionality, and then return to the creation of SIPs from backlog at an
+undetermined future time, perhaps several years in the future. 
+
+This meant that transfer backlogs are used for long-term storage of content and
+that users should expect it to be as durable as Archival Information Package (AIP)
+storage for maintaining accurate metadata over pipeline upgrades, migrations or
+re-indexes. To enable this, the decision was made to package backlog transfers as
+BagIt packages, supported by a verbose METS file, as is already done for AIPs.
 
 ## Decision drivers
 
@@ -39,7 +40,9 @@ create multiple SIPs from multiple transfers. In their use cases, one transfer
 does not automatically equal one SIP and one AIP. By sending transfers to
 backlog they are able to use the Appraisal tab functionality where users can
 create SIPs by combining files from different transfers in the Archivematica
-backlog. However, this creates a new expectation, namely, that transfer
+backlog. 
+
+However, this creates a new expectation, namely, that transfer
 backlogs can be used for long-term storage of content and that users should
 expect it to be as durable as AIP storage for maintaining accurate metadata
 over pipeline upgrades, migrations or re-indexes. However, prior to release
@@ -53,22 +56,31 @@ preservation risk if the files are kept in backlog for an indefinitely long
 period of time, as is the case for SFU Archives and an increasing number of
 Archivematica users.
 
-The decision was made to convert transfers into self-describing BagIt packages
-that mirrored Archivematica's AIPs so that Archivematica's transfer backlog
-could be rebuilt in the event of a lost or destroyed pipeline. Wherever
-feasible, the transfer metadata used to restore a BagIt package from backlog is
-written to its METS file.
+The decision was made to convert the materials in transfer backlogs to mirror
+Archivematica's AIPs, namely to use the Bagit and METS standards to
+package and describe the transfer materials. As materials go through transfer
+processing, event and object information is written to the transfer METS file
+wherever feasible. Other relevant information is captured in a logs subdirectory
+in an IETF-compliant Bagit package. Functionality was then added in Archivematica
+release 1.10 to rebuild backlogs from these self-describing packages in the event
+of a lost or destroyed pipeline. 
 
 ### Positive consequences
 
-* [e.g., improvement of quality attribute satisfaction, follow-up decisions
-  required, …]
-* …
+Archivematica users that rely on transfer backlog for long-term storage of 
+digital materials can now be assured that they can rebuild their backlogs from
+the transfer Bagit packages that Archivematica creates as of release 1.10. This
+significantly reduces the risk of loss of materials during the transfer backlog
+phase.
 
 ### Negative consequences
 
-* [e.g., compromising quality attribute, follow-up decisions required, …]
-* …
+Some major changes were introduced to the Archivematica codebase to enable it
+to restore from backlog using transfer Bagit packages. Previously, the
+information used to accomplish this was maintained primarily in the MCPServer
+database and ElasticSearch index. There is a risk that not all previous
+functionality to restore from backlog is fully enabled and that some 
+regressions may have been introduced as a result of this architectural change.
 
 ## Links
 
