@@ -84,6 +84,10 @@ regressions may have been introduced as a result of this architectural change.
 
 ## Links
 
-* Main issue in GitHub: [#391][0].
+* Main Archivematica issue in GitHub: [#391][0].
+* IETF Bagit specification[1].
+* Library of Congress METS standard[2].
 
 [0]: https://github.com/archivematica/Issues/issues/391
+[1]: https://tools.ietf.org/html/rfc8493
+[2]: http://www.loc.gov/standards/mets/
