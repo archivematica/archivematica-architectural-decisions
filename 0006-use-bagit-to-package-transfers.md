@@ -56,6 +56,8 @@ preservation risk if the files are kept in backlog for an indefinitely long
 period of time, as is the case for SFU Archives and an increasing number of
 Archivematica users.
 
+![before_archivematica_backlog](/assets/before_archivematica_backlog.png)
+
 The decision was made to convert the materials in transfer backlogs to mirror
 Archivematica's AIPs, namely to use the Bagit and METS standards to
 package and describe the transfer materials. As materials go through transfer
@@ -63,7 +65,9 @@ processing, event and object information is written to the transfer METS file
 wherever feasible. Other relevant information is captured in a logs subdirectory
 in an IETF-compliant Bagit package. Functionality was then added in Archivematica
 release 1.10 to rebuild backlogs from these self-describing packages in the event
-of a lost or destroyed pipeline. 
+of a lost or destroyed pipeline.
+
+![after_archivematica_backlog](/assets/after_archivematica_backlog.png)
 
 ### Positive consequences
 
