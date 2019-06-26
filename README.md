@@ -1,25 +1,12 @@
 # Archivematica Architectural Decision Records
 
-These are the currently accepted records:
+Welcome to the Architectural Decision Record repo for the Archivematica project.
 
-<!-- markdownlint-disable MD013 -->
-<!-- adrlog -->
+This repo captures decisions, and decisions in progress, for how Archivematica code is written and major changes to the architecture or functionality of the project.
 
-- [ADR-0000](0000-use-markdown-architectural-decision-records.md) - Use Markdown Architectural Decision Records
-- [ADR-0001](0001-unification-of-mets-creation.md) - Unification of METS Creation
-- [ADR-0002](0002-json-encoded-workflow.md) - JSON-encoded workflow
-- [ADR-0003](0003-black-code-formatter.md) - Black code formatter
-- [ADR-0004](0004-isort-import-ordering.md) - isort import formatting
-- [ADR-0005](0005-new-api-endpoint-for-csv-validation.md) - New API endpoint for CSV validation
-- [ADR-0006](0006-use-bagit-to-package-transfers.md) - Use BagIt to package transfers
+If you’re looking for a place to file a bug, enhancement, or non-architectural feature, please visit the Issues repo.
 
-<!-- adrlogstop -->
-<!-- markdownlint-enable MD013 -->
+Information on creating new ADRs can be found in CONTRIBUTING.md
 
-New proposals must be submitted as pull requests.
+A list of currently accepted records can be found in the Accepted log.
 
----
-
-For new ADRs, please use [template.md](template.md) as basis.
-More information on MADR is available at <https://adr.github.io/madr/>.
-General information about architectural decision records is available at <https://adr.github.io/>.
