@@ -1,6 +1,6 @@
 # Accepted log
 
-## Currently accepted records:
+## Currently accepted records
 
 <!-- markdownlint-disable MD013 -->
 <!-- adrlog -->
@@ -16,9 +16,8 @@
 <!-- adrlogstop -->
 <!-- markdownlint-enable MD013 -->
 
+## Superseded records
 
-## Superseded records:
+## Rejected records
 
-## Rejected records:
-
-## Deprecated records: 
+## Deprecated records
