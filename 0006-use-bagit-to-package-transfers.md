@@ -12,7 +12,7 @@ from donors and an archivist creating a Submission Information Package (SIP) for
 long-term archival storage. SFU Archives wanted the ability to perform minimal
 digital preservation tasks, such as those provided by Archivematica's Transfer
 functionality, and then return to the creation of SIPs from backlog at an
-undetermined future time, perhaps several years in the future. 
+undetermined future time, perhaps several years in the future.
 
 This meant that transfer backlogs are used for long-term storage of content and
 that users should expect it to be as durable as Archival Information Package (AIP)
@@ -40,7 +40,7 @@ create multiple SIPs from multiple transfers. In their use cases, one transfer
 does not automatically equal one SIP and one AIP. By sending transfers to
 backlog they are able to use the Appraisal tab functionality where users can
 create SIPs by combining files from different transfers in the Archivematica
-backlog. 
+backlog.
 
 However, this creates a new expectation, namely, that transfer
 backlogs can be used for long-term storage of content and that users should
@@ -71,7 +71,7 @@ of a lost or destroyed pipeline.
 
 ### Positive consequences
 
-Archivematica users that rely on transfer backlog for long-term storage of 
+Archivematica users that rely on transfer backlog for long-term storage of
 digital materials can now be assured that they can rebuild their backlogs from
 the transfer Bagit packages that Archivematica creates as of release 1.10. This
 significantly reduces the risk of loss of materials during the transfer backlog
@@ -83,7 +83,7 @@ Some major changes were introduced to the Archivematica codebase to enable it
 to restore from backlog using transfer Bagit packages. Previously, the
 information used to accomplish this was maintained primarily in the MCPServer
 database and ElasticSearch index. There is a risk that not all previous
-functionality to restore from backlog is fully enabled and that some 
+functionality to restore from backlog is fully enabled and that some
 regressions may have been introduced as a result of this architectural change.
 
 ## Links
