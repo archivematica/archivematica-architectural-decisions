@@ -34,9 +34,8 @@ ADRs must be submitted with the status “proposed" in the heading of the
 template. An ADR can also be submitted as Work In Progress (WIP) if desired.
 
 While ADRs are often technically focused, it’s good practice to write them in
-plain, understandable language ([the Archivematica docs style
-guide]
-(https://github.com/artefactual/archivematica-docs/blob/12da09e3664025169450ac8b913639ff85ebba84/style_guide.md)
+plain, understandable language
+([the Archivematica docs style guide](https://github.com/artefactual/archivematica-docs/blob/12da09e3664025169450ac8b913639ff85ebba84/style_guide.md)
 provides good guidance on this subject).
 
 When submitting an ADR remember also to update the [Accepted
@@ -66,12 +65,12 @@ After discussion and code review the ADR may be merged with the status accepted
 (or rejected, or remain in proposed if deemed more appropriate). ADRs can also
 be deprecated, or superseded by another ADR.
 
-## Changes to the ADR process:
+## Changes to the ADR process
 
 To propose changes to ADR templates or these guidelines, file an issue in the
 Archivematica Issues repo.
 
-## More information:
+## More information
 
 More information on Markdown Architectural Decision Records (MADR) is available
 at [adr.github.io/madr](https://adr.github.io/madr/). General information about
