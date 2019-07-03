@@ -37,7 +37,7 @@ plain, understandable language ([The Archivematica docs style
 guide](https://github.com/artefactual/archivematica-docs/blob/12da09e3664025169450ac8b913639ff85ebba84/style_guide.md)
 provides good guidance on this subject).
 
-When submitting and ADR remember also to update the [Accepted
+When submitting an ADR remember also to update the [Accepted
 log](accepted-log.md).
 
 When you submit an ADR be sure to assign at least one reviewer. If you’re
