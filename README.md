@@ -11,7 +11,7 @@ feature, please visit the [Issues](https://github.com/archivematica/Issues)
 repo.
 
 Information on creating new ADRs can be found in
-[CONTRIBUTING.md](contributing.md)
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
-A list of currently accepted records can be found in the 
+A list of currently accepted records can be found in the
 [Accepted log](accepted-log.md).
