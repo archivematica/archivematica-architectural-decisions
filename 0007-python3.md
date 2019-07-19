@@ -14,6 +14,22 @@ compatible with Python 3 yet. To avoid security and compatibility issues after
 this date, Archivematica and all of its required components will need to run in
 a Python 3 environment.
 
+Components:
+* am/compose
+* archivematica-storage-service
+* MCPServer
+* MCPClient
+* Dashboard
+* archivematica-common
+* mets-reader-writer
+* ammcpc
+* agentarchives
+* fixity
+* automation-tools
+* archivematica-acceptance-tests
+* amclient
+
+
 ## Decision drivers <!-- optional -->
 
 * Archivematica is built on Python 2
@@ -28,6 +44,8 @@ a Python 3 environment.
 Chosen option: 1, because refactoring Archivematica and all required components
 to Python 3 is the only option to ensure that Archivematica continues to be a
 safe, stable environment.
+
+Epic for Python 3 refactoring: archivematica/Issues#572
 
 ### Positive consequences
 
