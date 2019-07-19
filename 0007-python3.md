@@ -44,7 +44,7 @@ Chosen option: 1, because refactoring Archivematica and all required components
 to Python 3 is the only option to ensure that Archivematica continues to be a
 safe, stable environment.
 
-Epic for Python 3 refactoring: archivematica/Issues#572
+Epic for Python 3 refactoring: archivematica/Issues#508
 
 ### Positive consequences
 
