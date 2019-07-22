@@ -12,6 +12,7 @@
 - [ADR-0004](0004-isort-import-ordering.md) - isort import formatting
 - [ADR-0005](0005-new-api-endpoint-for-csv-validation.md) - New API endpoint for CSV validation
 - [ADR-0006](0006-use-bagit-to-package-transfers.md) - Use BagIt to package transfers
+- [ADR-0007](0007-python3.md) - Python 3
 
 <!-- adrlogstop -->
 <!-- markdownlint-enable MD013 -->
