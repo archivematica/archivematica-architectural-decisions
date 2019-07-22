@@ -2,41 +2,52 @@
 
 * Status: proposed
 * Deciders: Justin Simpson, Sarah Romkey, Darren Craze, Joel Simpson, David
- Juhasz, Jesús García Crespo, Pieter Van Garderen, Sara Allain, Ashley Blewer,
- Santiago Rodríguez Collazo, Miguel Angel Medinilla Luque, José Raddaoui Marín,
-* Date: 2019-07-19
+  Juhasz, Jesús García Crespo, Pieter Van Garderen, Sara Allain, Ashley Blewer,
+  Santiago Rodríguez Collazo, Miguel Angel Medinilla Luque, José Raddaoui Marín,
+  Cole Maclean, Ross Spencer, Douglas Cerna.
+* Date: 2019-07-22
 
 ## Context and problem statement
 
-Python 2 will not be supported past January 1, 2020. Archivematica is not fully
-compatible with Python 3 yet. To avoid security and compatibility issues after
-this date, Archivematica and all of its required components will need to run in
-a Python 3 environment.
+Python 2 will not be supported by the Python development team past January 1,
+2020\. Operating system vendors will provide bugfix support for some number of
+years, depending on the OS:
+
+* [Ubuntu 16.04 through 2021](https://wiki.ubuntu.com/Releases)
+* [Ubuntu 18.04 through 2023](https://wiki.ubuntu.com/Releases)
+* [RHEL/CentOS 7 through 2024](https://wiki.centos.org/About/Product)
+
+Archivematica is not fully compatible with Python 3 yet. Archivematica and all
+of its required components will eventually need to run in a Python 3
+environment, especially as downstream dependencies begin to drop support for
+Python 2 (i.e.
+[Django](https://docs.djangoproject.com/en/2.2/faq/install/#what-python-version-should-i-use-with-django)).
 
 Components:
 
-* am/compose
-* archivematica-storage-service
-* MCPServer
-* MCPClient
-* Dashboard
-* archivematica-common
-* mets-reader-writer
-* ammcpc
-* agentarchives
-* fixity
-* automation-tools
-* archivematica-acceptance-tests
-* amclient
+* [am/compose](https://github.com/artefactual-labs/am)
+* [archivematica-storage-service](https://github.com/artefactual/archivematica-storage-service)
+* [MCPServer](https://github.com/artefactual/archivematica/tree/a889605d8c97e114f8c0bc707d6a371030fb5c0b/src/MCPServer)
+* [MCPClient](https://github.com/artefactual/archivematica/tree/a889605d8c97e114f8c0bc707d6a371030fb5c0b/src/MCPClient)
+* [archivematica-common](https://github.com/artefactual/archivematica/tree/a889605d8c97e114f8c0bc707d6a371030fb5c0b/src/archivematicaCommon)
+* [Dashboard](https://github.com/artefactual/archivematica/tree/a889605d8c97e114f8c0bc707d6a371030fb5c0b/src/dashboard)
+* [mets-reader-writer](https://github.com/artefactual-labs/mets-reader-writer)
+* [ammcpc](https://github.com/artefactual-labs/ammcpc)
+* [agentarchives](https://github.com/artefactual-labs/agentarchives)
+* [fixity](https://github.com/artefactual/fixity)
+* [automation-tools](https://github.com/artefactual/automation-tools)
+* [archivematica-acceptance-tests](https://github.com/artefactual-labs/archivematica-acceptance-tests)
+* [amclient](https://github.com/artefactual-labs/amclient)
 
 ## Decision drivers <!-- optional -->
 
 * Archivematica is built on Python 2
 * Python 2 will no longer be supported after January 1, 2020
+* Archivematica should be refactored to use Python 3.5 (at minimum)
 
 ## Considered options
 
-1. Refactor to Python 3
+1. Refactor to Python 3.5
 
 ## Decision outcome
 
@@ -44,24 +55,41 @@ Chosen option: 1, because refactoring Archivematica and all required components
 to Python 3 is the only option to ensure that Archivematica continues to be a
 safe, stable environment.
 
-Epic for Python 3 refactoring: archivematica/Issues#508
+Python 3.5 was chosen for the following reasons:
+
+* [Python 3.4](https://www.python.org/dev/peps/pep-0429/) has already been
+  retired
+* [Python 3.5](https://www.python.org/dev/peps/pep-0478/) is the oldest version
+  supported
+* Ubuntu 16.04 ships Python 3.5
+* Ubuntu 18.04 ships Python 3.6
+* For CentOS 7, The Software Collections Repository provides packages for
+  Python 3.5 and up
+
+[Epic for Python 3 refactoring](https://github.com/archivematica/Issues/issues/805)
 
 ### Positive consequences
 
-* Archivematica will be upgraded to a stable version of Python
+* Archivematica will be upgraded to a maintained version of Python.
 * Archivematica developers will be able to take advantage of new features in
- Python
+  Python.
 * The most recent version of Python 3 at time of writing is Python 3.9, which
- will be maintained until June 2025; further versions of Python 3 are expected which
- will extend this end of life date, which means that the Archivematica codebase
- is guaranteed to have at least 5 years of Python support
+  will be maintained until June 2025; further versions of Python 3 are expected
+  which will extend this end of life date, which means that the Archivematica
+  codebase is guaranteed to have at least 5 years of Python 3 support from the
+  Python development team.
 
 ### Negative consequences
 
 * This is a very large task and components need to be tackled in priority order,
- so it will take a considerable amount of time to get everything refactored
+  so it will take a considerable amount of time to get everything refactored.
 * Releasing the Python 3 work once all components are refactored will take the
- place of a feature release
+  place of a feature release, leaving some development work unreleased for at
+  least 4 extra months (note: all code resides in public branches).
+* We will need to support Archivematica running Python 2.7 for some time because
+  users will need time to upgrade. This results in a dual support burden.
+* Development work currently in progress may need to be refactored to Python 3
+  before it are releasable, which is unsponsored work.
 
 ## Links <!-- optional -->
 
