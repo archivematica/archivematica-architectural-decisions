@@ -1,7 +1,7 @@
 # Remove quarantine
 
 * Status: proposed
-* Deciders: Jesús García Crespo, Sarah Romkey, [more names]
+* Deciders: Jesús García Crespo, Sarah Romkey
 * Date: 2019-10-13
 
 ## Context and problem statement
@@ -10,10 +10,10 @@ Quarantine is an optional workflow step in Archivematica that places digital
 objects in a separate space for a specified period of time for virus definitions
 to be updated. It adds complexity to the workflow and is arguably unnecessary
 because ingested digital objects generally speaking pre-date the available virus
-definitions, which are updated daily. This proposal is to remove quarantine 
+definitions, which are updated daily. This proposal is to remove quarantine
 to simplify Archivematica's workflow and ease maintenance and testing.
 
-## Decision drivers 
+## Decision drivers
 
 * Desire to simplify Archivematica workflows
 * Need to fix known bugs related to quarantine if it remains supported
@@ -27,17 +27,16 @@ to simplify Archivematica's workflow and ease maintenance and testing.
 ## Decision outcome
 
 Option 1, because there is no evidence of use in the community to justify the
-continued maintenance of the feature and the positive consequences of the 
+continued maintenance of the feature and the positive consequences of the
 removal of the code out weigh the benefits of the functionality.
 
-### Positive consequences 
+### Positive consequences
 
 * Simplified, easier to maintain workflow
-* Removes two configuration required by users but rarely (we think) needed
+* Removes two configurations required by users but rarely (we think) needed
 * Resolution of the following issues:
 * DSpace workflow issue: [#426][1]
 * Virus scan not triggered after quarantine: [691][2]
 
 [1]: https://github.com/archivematica/Issues/issues/426
 [2]: https://github.com/archivematica/Issues/issues/691
-
