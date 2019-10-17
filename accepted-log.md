@@ -3,7 +3,6 @@
 ## Currently accepted records
 
 <!-- markdownlint-disable MD013 -->
-<!-- adrlog -->
 
 - [ADR-0000](0000-use-markdown-architectural-decision-records.md) - Use Markdown Architectural Decision Records
 - [ADR-0001](0001-unification-of-mets-creation.md) - Unification of METS Creation
@@ -14,11 +13,18 @@
 - [ADR-0006](0006-use-bagit-to-package-transfers.md) - Use BagIt to package transfers
 - [ADR-0007](0007-python3.md) - Python 3
 
-<!-- adrlogstop -->
 <!-- markdownlint-enable MD013 -->
 
-## Superseded records
+## Proposed
 
-## Rejected records
+<!-- markdownlint-disable MD013 -->
 
-## Deprecated records
+- [ADR-0008](0008-remove-quarantine.md) - Remove quarantine
+
+<!-- markdownlint-enable MD013 -->
+
+<!-- ## Superseded records -->
+
+<!-- ## Rejected records -->
+
+<!-- ## Deprecated records -->
