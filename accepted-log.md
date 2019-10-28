@@ -3,7 +3,6 @@
 ## Currently accepted records
 
 <!-- markdownlint-disable MD013 -->
-<!-- adrlog -->
 
 - [ADR-0000](0000-use-markdown-architectural-decision-records.md) - Use Markdown Architectural Decision Records
 - [ADR-0001](0001-unification-of-mets-creation.md) - Unification of METS Creation
