@@ -28,7 +28,7 @@ to simplify Archivematica's workflow and ease maintenance and testing.
 
 Option 1, because there is no evidence of use in the community to justify the
 continued maintenance of the feature and the positive consequences of the
-removal of the code out weigh the benefits of the functionality. The virus
+removal of the code outweigh the benefits of the functionality. The virus
 scanning micro-service remains unchanged by this decision.
 
 ### Positive consequences
