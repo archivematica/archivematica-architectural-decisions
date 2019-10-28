@@ -1,6 +1,6 @@
 # Remove quarantine
 
-* Status: proposed
+* Status: accepted
 * Deciders: Jesús García Crespo, Sarah Romkey
 * Date: 2019-10-13
 
@@ -28,12 +28,14 @@ to simplify Archivematica's workflow and ease maintenance and testing.
 
 Option 1, because there is no evidence of use in the community to justify the
 continued maintenance of the feature and the positive consequences of the
-removal of the code out weigh the benefits of the functionality.
+removal of the code outweigh the benefits of the functionality. The virus
+scanning micro-service remains unchanged by this decision.
 
 ### Positive consequences
 
 * Simplified, easier to maintain workflow
-* Removes two configurations required by users but rarely (we think) needed
+* Removes two processing configurations that users are required to make but
+  which are rarely implemented.
 * Resolution of the following issues:
 * DSpace workflow issue: [#426][1]
 * Virus scan not triggered after quarantine: [691][2]

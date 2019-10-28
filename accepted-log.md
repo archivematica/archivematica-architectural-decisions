@@ -12,16 +12,17 @@
 - [ADR-0005](0005-new-api-endpoint-for-csv-validation.md) - New API endpoint for CSV validation
 - [ADR-0006](0006-use-bagit-to-package-transfers.md) - Use BagIt to package transfers
 - [ADR-0007](0007-python3.md) - Python 3
+- [ADR-0008](0008-remove-quarantine.md) - Remove quarantine
+
+<!-- adrlogstop -->
 
 <!-- markdownlint-enable MD013 -->
-
-## Proposed
 
 <!-- markdownlint-disable MD013 -->
 
-- [ADR-0008](0008-remove-quarantine.md) - Remove quarantine
-
 <!-- markdownlint-enable MD013 -->
+
+<!-- ## Proposed records -->
 
 <!-- ## Superseded records -->
 
