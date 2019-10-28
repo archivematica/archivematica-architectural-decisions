@@ -34,7 +34,8 @@ scanning micro-service remains unchanged by this decision.
 ### Positive consequences
 
 * Simplified, easier to maintain workflow
-* Removes two configurations required by users but rarely (we think) needed
+* Removes two processing configurations that users are required to make but
+  which are rarely implemented.
 * Resolution of the following issues:
 * DSpace workflow issue: [#426][1]
 * Virus scan not triggered after quarantine: [691][2]
