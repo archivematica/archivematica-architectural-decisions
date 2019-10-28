@@ -1,8 +1,6 @@
 # Remove quarantine
 
-
 * Status: acccepted
-
 * Deciders: Jesús García Crespo, Sarah Romkey
 * Date: 2019-10-13
 
