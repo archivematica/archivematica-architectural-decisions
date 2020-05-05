@@ -50,15 +50,15 @@ Examples of the types of reporting information that users want from their Archiv
 
 ## Considered options
 
-* Improve display of search hits in Backlog and Archival Storage tabs. Allow download of results as CSV.
-* Build hard-coded, GUI & print-formatted reports into the Backlog and Archival Storage tabs. Use ElasticSearch index(es) and/or METS XML files in Storage Service as report content source. Allow download as PDF.
-* Integrate open-source [Kibana](https://www.elastic.co/kibana) dashboard widgets into the Archivematica Dashboard using the ElasticSearch index(es) as report content source.
-* Integrate open-source third-party reporting tools (e.g. [Pentaho Report Designer](https://help.pentaho.com/Documentation/8.0/Products/Report_Designer), [Jasper Reports](https://community.jaspersoft.com/project/jasperreports-library)) into the Archivematica Dashboard using ElasticSearch index(es) and/or METS XML files in the Storage Service as report content source.
-* Implement opern-source third-party reporting tools (e.g. Pentaho, Jasper) external to Archivematica using AIP METS XML information requested from the Storage Service as report content source.
-* Expose ElasticSearch index API(s) to external third-party open-source reporting tools (e.g. Kibana, Pentaho, Jasper)
-* Build hard-coded, GUI & print-formatted reports into a new external reporting tool using AIP METS XML information requested from the Storage Service as report content source (e.g. [AIPscan](https://github.com/peterVG/AIPscan))
-* Find a way to connect Archivematica content to Software as a Service reporting (SaaS) reporting solutions (e.g. [Tableau](https://www.tableau.com/))
-* Use Archivematica pipeline MySQL database and log files as content source for chosen reporting solution (instead of or in addition to ElasticSearch index(es) and AIP METS XML files).
+1. Improve display of search hits in Backlog and Archival Storage tabs. Allow download of results as CSV.
+2. Build hard-coded, GUI & print-formatted reports into the Backlog and Archival Storage tabs. Use ElasticSearch index(es) and/or METS XML files in Storage Service as report content source. Allow download as PDF.
+3. Integrate open-source [Kibana](https://www.elastic.co/kibana) dashboard widgets into the Archivematica Dashboard using the ElasticSearch index(es) as report content source.
+4. Integrate open-source third-party reporting tools (e.g. [Pentaho Report Designer](https://help.pentaho.com/Documentation/8.0/Products/Report_Designer), [Jasper Reports](https://community.jaspersoft.com/project/jasperreports-library)) into the Archivematica Dashboard using ElasticSearch index(es) and/or METS XML files in the Storage Service as report content source.
+5. Implement opern-source third-party reporting tools (e.g. Pentaho, Jasper) external to Archivematica using AIP METS XML information requested from the Storage Service as report content source.
+6. Expose ElasticSearch index API(s) to external third-party open-source reporting tools (e.g. Kibana, Pentaho, Jasper)
+7. Build hard-coded, GUI & print-formatted reports into a new external reporting tool using AIP METS XML information requested from the Storage Service as report content source (e.g. [AIPscan](https://github.com/peterVG/AIPscan))
+8. Find a way to connect Archivematica content to Software as a Service reporting (SaaS) reporting solutions (e.g. [Tableau](https://www.tableau.com/))
+9. Use Archivematica pipeline MySQL database and log files as content source for chosen reporting solution (instead of or in addition to ElasticSearch index(es) and AIP METS XML files).
 
 
 ## Decision outcome
