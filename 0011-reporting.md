@@ -58,7 +58,7 @@ Examples of the types of reporting information that users want from their Archiv
 * Expose ElasticSearch index API(s) to external third-party open-source reporting tools (e.g. Kibana, Pentaho, Jasper)
 * Build hard-coded, GUI & print-formatted reports into a new external reporting tool using AIP METS XML information requested from the Storage Service as report content source (e.g. [AIPscan](https://github.com/peterVG/AIPscan))
 * Find a way to connect Archivematica content to Software as a Service reporting (SaaS) reporting solutions (e.g. [Tableau](https://www.tableau.com/))
-* Use Archivematica pipeline MySQL database and log files as content source for chosen reporting solution
+* Use Archivematica pipeline MySQL database and log files as content source for chosen reporting solution (instead of or in addition to ElasticSearch index(es) and AIP METS XML files).
 
 
 ## Decision outcome
