@@ -56,8 +56,8 @@ Examples of the types of reporting information that users want from their Archiv
 * Integrate open-source third-party reporting tools (e.g. [Pentaho Report Designer](https://help.pentaho.com/Documentation/8.0/Products/Report_Designer), [Jasper Reports](https://community.jaspersoft.com/project/jasperreports-library)) into the Archivematica Dashboard using ElasticSearch index(es) and/or METS XML files in the Storage Service as report content source.
 * Implement opern-source third-party reporting tools (e.g. Pentaho, Jasper) external to Archivematica using AIP METS XML information requested from the Storage Service as report content source.
 * Expose ElasticSearch index API(s) to external third-party open-source reporting tools (e.g. Kibana, Pentaho, Jasper)
-* Build hard-coded, GUI & print-formatted reports into a new external reporting tool using AIP METS XML information requested from the Storage Service as report content source (e.g. [AIPscan](https://github.com/peterVG/AIPscan)
-* Find a way to connect Archivematica content to Software as a Service reporting (SaaS) reporting solutions (e.g. [Tableau](https://www.tableau.com/)
+* Build hard-coded, GUI & print-formatted reports into a new external reporting tool using AIP METS XML information requested from the Storage Service as report content source (e.g. [AIPscan](https://github.com/peterVG/AIPscan))
+* Find a way to connect Archivematica content to Software as a Service reporting (SaaS) reporting solutions (e.g. [Tableau](https://www.tableau.com/))
 * Use Archivematica pipeline MySQL database and log files as content source for chosen reporting solution
 
 
