@@ -59,6 +59,7 @@ Examples of the types of reporting information that users want from their Archiv
 * Organisations using multiple pipelines have a reporting aggregation problem because information is distributed across dashboards. 
 * Information “inside” Archivematica has different properties. Some information is used purely as a convenience, e.g. unit variables are used to direct workflows; Job/Task information is generated in aid of creating an AIP; FPR information is an institutional record surrounding preservation and access decisions.
 * Where should Archivematica reporting information be aggregated, stored, and secured?
+* Graphical reporting outputs (e.g. pie charts, bar charts, histograms) are visually appealling but are often not enough to convey detailed or comprehensive information. Where should visualizations be used and where should document-style reports be used?
 
 
 ## Considered options
