@@ -42,11 +42,25 @@ Examples of the types of reporting information that users want from their Archiv
 * How many transfers or SIPs had processing failures in the last week, month, or year. What were the errors they experienced? How many of these went unresolved?
 
 
-
-
 ## Decision drivers
 
+### Project forces
 * A sponsored client project would like to implement Archivematica reporting features
+### Technical forces
+* There are four sources of information within Archivematica from which reports can be created: 
+** the Elasticsearch index(es)
+** MySQL/SQLite database(s) (Dashboard/Storage-service/FPR)
+** the METS XML files in Archival Information Packages 
+** log files
+
+* Some information wanted for reporting might need to be generated, e.g. additional technical metadata not yet retrieved from digital objects. 
+* Reporting can impact the performance of the system and compute demands of reporting are often quite different in nature to transactional processing. Often systems clearly separate reporting components from transactional components to minimize conflict between the two.
+* Information inside Archivematica has different life-spans, e.g. an AIP is by its nature persistent. An Archivematica Job/Task output is a transactional record and is not anticipated to last as long. 
+* Some information might not be available from the outset, e.g. Organisations running with Indexing turned off.
+* Organisations using multiple pipelines have a reporting aggregation problem because information is distributed across dashboards. 
+* Information “inside” Archivematica has different properties. Some information is used purely as a convenience, e.g. unit variables are used to direct workflows; Job/Task information is generated in aid of creating an AIP; FPR information is an institutional record surrounding preservation and access decisions.
+* Where should Archivematica reporting information be aggregated, stored, and secured?
+
 
 ## Considered options
 
