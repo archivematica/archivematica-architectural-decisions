@@ -36,7 +36,6 @@ Examples of the types of reporting information that users want from their Archiv
 * How many [video, image, plain text etc.] files have not been normalized?	
 * How many files were ingested between date X and date Y?	
 * How many files with PRONOM puid X are invalid/not well-formed?
-* How many files with format name X are invalid/not well-formed?
 * How many AIPs have corresponding DIPs?
 * How many AIPs do not have corresponding DIPs?
 * How many transfers or SIPs had processing failures in the last week, month, or year. What were the errors they experienced? How many of these went unresolved?
