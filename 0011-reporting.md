@@ -47,11 +47,11 @@ Examples of the types of reporting information that users want from their Archiv
 ### Project forces
 * A sponsored client project would like to implement Archivematica reporting features
 ### Technical forces
-* There are four sources of information within Archivematica from which reports can be created: 
-** the Elasticsearch index(es)
-** MySQL/SQLite database(s) (Dashboard/Storage-service/FPR)
-** the METS XML files in Archival Information Packages 
-** log files
+* There are four sources of information within Archivematica from which reports can be created:  
+1. the Elasticsearch index(es)
+2. MySQL/SQLite database(s) (Dashboard/Storage-service/FPR)
+3. the METS XML files in Archival Information Packages 
+4. log files
 
 * Some information wanted for reporting might need to be generated, e.g. additional technical metadata not yet retrieved from digital objects. 
 * Reporting can impact the performance of the system and compute demands of reporting are often quite different in nature to transactional processing. Often systems clearly separate reporting components from transactional components to minimize conflict between the two.
