@@ -11,7 +11,7 @@ Development on a comprehensive reporting feature has been blocked in the past be
 
 There is also some overlap of requirements between logging functionality, reporting features, and the outputs provided by Archivematica's Format Policy Registry (FPR) which makes the final vision for an Archivematica reporting solution less clear.
 
-The functional output of reporting should be to support preservation planning, system implementation, and repository maintenance. We recognize that there are gaps in the data aggregated by Archivematica, e.g. technical properties across the widest range of file-formats; or the data available to systems like Archivematica, e.g. community driven statistics describing file-format obsolescence.
+The functional output of reporting should be to support preservation planning, implementation of preservation plans, and repository maintenance. We recognize that there are gaps in the data aggregated by Archivematica, e.g. technical properties across the widest range of file-formats; or the data available to systems like Archivematica, e.g. community driven statistics describing file-format obsolescence.
 
 Reporting is complicated further by the fact that production Archivematica deployments are often split over multiple processing pipelines and/or storage locations.
 
