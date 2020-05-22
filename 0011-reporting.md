@@ -1,6 +1,6 @@
 # Introduce reporting functionality
 
-* Status: proposed
+* Status: Work in Progress
 * Deciders: Jesús García Crespo, Sarah Romkey, Ross Spencer, Joel Simpson, Peter Van Garderen
 * Date: 2020-05-19
 
