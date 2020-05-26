@@ -84,6 +84,7 @@ Examples
 3. How many files are in a specified AIP? [UC013]
 4. A report of the data volume and total number of files per file format
 ingested during one year. [UC014]
+* "As a repository manager I want to be able to search across AIPs to locate how many of a certain file type I have. Ideally, I'd like to be able to narrow my search using date or other parameters." [reporting-2017]
 5. A report of the total data volume for each version of a given file format,
 including the number of files. [UC015]
 6. A report listing all Backlog packages and AIPs that have been deleted.
