@@ -401,8 +401,8 @@ Archivematica's reporting options are heavily influenced by the original
 technical architecture decision to make file-based Archival Information
 Packages (AIPs) the focus of digital preservation processing and the canonical
 source of preserved data.
-* JISC (University of York, University of Hull) Research Data Management
-[requirements for METS parsing][mets-1]
+* [Reporting improvements project][reporting-2017] (2017) - UCLA Library and NYPL Special Collections
+* JISC Research Data Management [requirements for METS parsing][mets-1] (2015) - University of York and University of Hull
 
 [adr0010]: https://github.com/archivematica/archivematica-architectural-decisions/blob/1d644ec44530aa50ccca07611aba85600b89b66d/0010-Archivematica-original-design-principles.md
 [aipscan-1]: https://github.com/peterVG/AIPscan
@@ -417,3 +417,4 @@ source of preserved data.
 [pentaho-1]: https://help.pentaho.com/Documentation/8.0/Products/Report_Designer
 [table-panels-1]: https://grafana.com/docs/grafana/latest/panels/visualizations/table-panel/#table-panel
 [tableau-1]: https://www.tableau.com/
+[reporting-2017]: https://wiki.archivematica.org/Improvements/Reporting
