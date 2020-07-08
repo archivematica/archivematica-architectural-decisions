@@ -1,8 +1,11 @@
-# Use BagIt to package transfers
-
-* Status: proposed
-* Deciders: Justin Simpson, Jesús García Crespo, Peter Van Garderen
-* Date: 2019-01-01
+---
+layout: page
+status: accepted
+adr: "0006"
+title: Use BagIt to package transfers
+deciders: Justin Simpson, Jesús García Crespo, Peter Van Garderen
+date: 2019-01-01
+---
 
 ## Context and problem statement
 

@@ -1,6 +1,11 @@
-# Use Markdown Architectural Decision Records
-
-* Status: accepted
+---
+layout: page
+status: accepted
+adr: "0000"
+title: Use Markdown Architectural Decision Records
+deciders:
+date:
+---
 
 ## Context and problem statement
 

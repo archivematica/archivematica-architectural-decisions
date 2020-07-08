@@ -1,6 +1,11 @@
-# Black code formatter
-
-* Status: accepted
+---
+layout: page
+status: accepted
+adr: "0003"
+title: Black code formatter
+deciders:
+date:
+---
 
 ## Context and problem statement
 

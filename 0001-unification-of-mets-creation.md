@@ -1,6 +1,11 @@
-# Unification of METS creation
-
-* Status: accepted
+---
+layout: page
+status: accepted
+adr: "0001"
+title: Unification of METS creation
+deciders:
+date:
+---
 
 Note: this record uses a different structure based on
 [Michael Nygard's blog post][nygard].

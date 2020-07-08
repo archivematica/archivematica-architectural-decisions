@@ -1,6 +1,11 @@
-# JSON-encoded workflow
-
-* Status: accepted
+---
+layout: page
+status: accepted
+adr: "0002"
+title: JSON-encoded workflow
+deciders:
+date:
+---
 
 ## Context and problem statement
 

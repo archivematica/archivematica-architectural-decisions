@@ -1,8 +1,11 @@
-# Remove quarantine
-
-* Status: accepted
-* Deciders: Jesús García Crespo, Sarah Romkey
-* Date: 2019-10-13
+---
+layout: page
+status: accepted
+adr: "0008"
+title: Remove quarantine
+deciders: Jesús García Crespo, Sarah Romkey
+date: 2019-10-13
+---
 
 ## Context and problem statement
 

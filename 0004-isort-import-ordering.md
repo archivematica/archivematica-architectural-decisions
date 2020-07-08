@@ -1,6 +1,11 @@
-# Isort Import Formatting
-
-* Status: proposed
+---
+layout: page
+status: proposed
+adr: "0004"
+title: Isort Import Formatting
+deciders:
+date:
+---
 
 ## Context and problem statement
 

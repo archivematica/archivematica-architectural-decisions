@@ -1,11 +1,12 @@
-# [short title of solved problem and solution]
-
-* Status: [proposed | rejected | accepted | deprecated | … | superseded by
-  [ADR-0005](0005-example.md)] <!-- optional -->
-* Deciders: [list everyone involved in the decision] <!-- optional -->
-* Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
-
-Technical story: [description | ticket/issue URL] <!-- optional -->
+---
+layout: page
+adr: [adr-number]
+title: [short title of solved problem and solution]
+status: [proposed | rejected | accepted | deprecated | … | superseded by]
+deciders: [ <!-- optional --> list everyone involved in the decision <!-- optional --> ]
+date: [ <!-- optional --> YYYY-MM-DD when the decision was last updated <!-- optional --> ]
+technical-story: [ <!-- optional --> description | ticket/issue URL <!-- optional --> ]
+---
 
 ## Context and problem statement
 
