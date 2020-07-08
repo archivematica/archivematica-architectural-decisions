@@ -1,8 +1,11 @@
-# Use AMClient (Archivematica API Client) for API calls in Archivematica
-
-* Status: proposed
-* Deciders: Artefactual Systems Inc.
-* Date: 2019-10-25
+---
+layout: page
+status: proposed
+adr: "0009"
+title: Use AMClient (Archivematica API Client) for API calls in Archivematica
+deciders: Artefactual Systems Inc.
+date: 2019-10-25
+---
 
 ## Context and problem statement
 

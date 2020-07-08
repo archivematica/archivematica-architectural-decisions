@@ -1,11 +1,11 @@
-# Archivematica original design principles
-
-* Status: accepted
-
-## Authors
-
-* Peter Van Garderen
-* Evelyn McLellan
+---
+layout: page
+status: accepted
+adr: "0010"
+title: Archivematica original design principles
+deciders: Peter Van Garderen, Evelyn McLellan
+date: 2021-06-09
+---
 
 ## Context and problem statement
 

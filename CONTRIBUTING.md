@@ -1,4 +1,7 @@
-# Contributing
+---
+layout: page
+title: Contributing
+---
 
 ## When to submit an ADR
 

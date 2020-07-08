@@ -1,11 +1,11 @@
-# Refactor to Python 3
-
-* Status: proposed
-* Deciders: Justin Simpson, Sarah Romkey, Darren Craze, Joel Simpson, David
-  Juhasz, Jesús García Crespo, Pieter Van Garderen, Sara Allain, Ashley Blewer,
-  Santiago Rodríguez Collazo, Miguel Angel Medinilla Luque, José Raddaoui Marín,
-  Cole Maclean, Ross Spencer, Douglas Cerna.
-* Date: 2019-07-22
+---
+layout: page
+status: accepted
+adr: "0007"
+title: Refactor to Python 3
+deciders: "Justin Simpson, Sarah Romkey, Darren Craze, Joel Simpson, David Juhasz, Jesús García Crespo, Pieter Van Garderen, Sara Allain, Ashley Blewer, Santiago Rodríguez Collazo, Miguel Angel Medinilla Luque, José Raddaoui Marín, Cole Maclean, Ross Spencer, Douglas Cerna."
+date: 2019-07-22
+---
 
 ## Context and problem statement
 
