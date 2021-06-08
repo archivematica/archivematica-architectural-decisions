@@ -13,13 +13,10 @@
 - [ADR-0006](0006-use-bagit-to-package-transfers.md) - Use BagIt to package transfers
 - [ADR-0007](0007-python3.md) - Python 3
 - [ADR-0008](0008-remove-quarantine.md) - Remove quarantine
-- [ADR-0009](0009-unification-of-api-handling-in-am.html) - Use AMClient (Archivematica API Client) for API calls in Archivematica
+- [ADR-0009](0009-unification-of-api-handling-in-am.md) - Use AMClient (Archivematica API Client) for API calls in Archivematica
+- [ADR-0010](0010-archivematica-original-design-principles.md) - Archivematica original design principles
 
 <!-- adrlogstop -->
-
-<!-- markdownlint-enable MD013 -->
-
-<!-- markdownlint-disable MD013 -->
 
 <!-- markdownlint-enable MD013 -->
 
