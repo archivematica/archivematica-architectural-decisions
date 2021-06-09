@@ -82,6 +82,10 @@ Design principles:
 ## Links
 
 * https://wiki.archivematica.org/Overview
+* https://wiki.archivematica.org/OAIS_Use_Cases Original use cases based
+  directly on ISO-OAIS
+* https://wiki.archivematica.org/UML_Activity_Diagrams Worfklow diagrams derived
+  from use cases. Archivematica's orginal functional requirements.
 * https://wiki.archivematica.org/Dashboard Original dashboard functional
   requirements
 * https://wiki.archivematica.org/AIP_structure Reason for quad directories
