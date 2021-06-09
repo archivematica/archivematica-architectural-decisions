@@ -1,4 +1,5 @@
+repos:
 - repo: git://github.com/igorshubovych/markdownlint-cli
-  rev: v0.25.0
+  rev: v0.27.1
   hooks:
   - id: markdownlint
