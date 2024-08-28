@@ -3,7 +3,7 @@ layout: page
 adr: "0011"
 title: Removal of default characterization rule
 status: proposed
-deciders: Sarah Romkey, 
+deciders: Sarah Romkey
 date: 2024-08-27
 ---
 
