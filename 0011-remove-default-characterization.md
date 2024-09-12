@@ -43,7 +43,9 @@ characterization is treated like other preservation actions.
   appears to be the closest equivalent to characterization and most of the tools
   listed are best suited to specific file types. As per the point above, the
   intention should be that Archivematica users are more easily able to install
-  and use these tools into the FPR should they so choose.
+  and use these tools into the FPR should they so choose. This includes choosing
+  an alternate default characterization tool on a per-institution basis, which
+  is possible by altering the Default Characterization Rule in the FPR.
 
 ## Considered options
 
