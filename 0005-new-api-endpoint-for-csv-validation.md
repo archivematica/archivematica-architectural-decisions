@@ -9,18 +9,21 @@ date: 2018-03-28
 
 ## Context and problem statement
 
-Archivematica users rely on spreadsheets created in a specific way to perform
-tasks within or after Archivematica. Documentations and examples can be found
-[here](https://www.archivematica.org/en/docs/archivematica-1.9/user-manual/transfer/import-metadata/)
-but there is no clear validation as can be performed by a machine. As one
-example, the metadata.csv and rights.csv files are "special" and are utilized by
-Archivematica to add metadata or rights metadata into the AIP's METS file.
-Another example is the Avalon Media System having a specific Manifest.csv file
-that is used to recreate hierarchical information and additional metadata, which
-is used after a DIP is created from a stored AIP. It would be beneficial if this
-manifest could be validated prior to going through the preservation process.
-Both of these examples would benefit from a validation service that a user (or
-automated system) could access prior to ingest into Archivematica.
+Archivematica users rely on spreadsheets created in a specific way to
+perform tasks within or after Archivematica. Documentations and
+examples can be found in the [Import
+metadata](https://www.archivematica.org/en/docs/archivematica-1.9/user-manual/transfer/import-metadata/)
+section but there is no clear validation as can be performed by a
+machine. As one example, the metadata.csv and rights.csv files are
+"special" and are utilized by Archivematica to add metadata or rights
+metadata into the AIP's METS file.  Another example is the Avalon
+Media System having a specific Manifest.csv file that is used to
+recreate hierarchical information and additional metadata, which is
+used after a DIP is created from a stored AIP. It would be beneficial
+if this manifest could be validated prior to going through the
+preservation process.  Both of these examples would benefit from a
+validation service that a user (or automated system) could access
+prior to ingest into Archivematica.
 
 ## Decision drivers
 
