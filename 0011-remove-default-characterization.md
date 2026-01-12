@@ -2,7 +2,7 @@
 layout: page
 adr: "0011"
 title: Removal of default characterization rule
-status: proposed
+status: accepted
 deciders: Sarah Romkey
 date: 2024-08-27
 ---
@@ -56,6 +56,8 @@ characterization is treated like other preservation actions.
 
 ## Decision outcome
 
-TBD
+FITS was removed in Archivematica 1.17, released December 6, 2024. Related
+pull requests can be found attached to
+[Issue 703](https://github.com/archivematica/Issues/issues/703).
 
 ## Links <!-- optional -->
