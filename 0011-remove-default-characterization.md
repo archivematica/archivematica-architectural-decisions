@@ -56,8 +56,8 @@ characterization is treated like other preservation actions.
 
 ## Decision outcome
 
-FITS was removed in Archivematica 1.17, released December 6, 2024. Related 
-pull requests can be found attached to 
+FITS was removed in Archivematica 1.17, released December 6, 2024. Related
+pull requests can be found attached to
 [Issue 703](https://github.com/archivematica/Issues/issues/703).
 
 ## Links <!-- optional -->
