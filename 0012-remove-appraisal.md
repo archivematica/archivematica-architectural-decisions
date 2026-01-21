@@ -31,10 +31,10 @@ Archivematica code stack.
 
 ## Decision drivers
 
-* As noted above, the Appraisal tab is posing a security concern meaning it must be
-  either removed or overhauled.
-* Overhauling the Appraisal tab would be a significant piece of effort that does not
-  seem to be aligned with current usage of the Appraisal tab.
+* As noted above, the Appraisal tab is posing a security concern meaning it
+  must be either removed or overhauled.
+* Overhauling the Appraisal tab would be a significant piece of effort that
+  does not seem to be aligned with current usage of the Appraisal tab.
 * The Appraisal tab does not support more automated, API-driven workflows that are
   now favoured by Archivematica users.
 * If the Appraisal tab is removed, it is important to avoid a scenario where users
@@ -42,8 +42,8 @@ Archivematica code stack.
 
 ## Considered options
 
-* Remove both the Appraisal tab (and its related functionality) and the Backlog tab,
-  and disable the ability to send transfers to Backlog.
+* Remove both the Appraisal tab (and its related functionality) and the
+  Backlog tab, and disable the ability to send transfers to Backlog.
 * Remove the Appraisal tab (and its related functionality) while retaining the
   Backlog tab but add an API call and a UI element to take a transfer from the
   Backlog and start it as a SIP.
