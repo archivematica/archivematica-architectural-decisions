@@ -1,0 +1,10 @@
+[project]
+name = "archivematica-architectural-decisions"
+version = "0"
+requires-python = ">=3.12"
+
+[dependency-groups]
+dev = ["pre-commit"]
+
+[tool.uv]
+package = false
