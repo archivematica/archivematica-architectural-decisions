@@ -6,18 +6,37 @@ on:
     branches:
       - "main"
 jobs:
+  verify-actions-lock:
+    name: "Verify action lockfile"
+    runs-on: "ubuntu-latest"
+    timeout-minutes: 10
+    permissions:
+      contents: "read"
+    steps:
+      - name: "Check out repository"
+        uses: "actions/checkout@v7.0.1"
+        with:
+          persist-credentials: false
+      - name: "Install actions-lock"
+        run: "gh extension install github/gh-actions-lock --pin v0.2.0"
+        env:
+          GH_TOKEN: "${{ github.token }}"
+      - name: "Verify locked dependencies"
+        run: "gh actions-lock --verify"
+        env:
+          GH_TOKEN: "${{ github.token }}"
   lint:
     name: "Lint"
     runs-on: "ubuntu-latest"
     steps:
       - name: "Check out repository"
-        uses: "actions/checkout@v7"
+        uses: "actions/checkout@v7.0.1"
       - name: "Set up uv"
-        uses: "astral-sh/setup-uv@v10"
+        uses: "astral-sh/setup-uv@v10.3.0"
         with:
           enable-cache: true
       - name: "Cache pre-commit hooks"
-        uses: "actions/cache@v6"
+        uses: "actions/cache@v6.1.0"
         with:
           path: "~/.cache/pre-commit"
           key: "pre-commit|${{ runner.os }}|${{ hashFiles('.pre-commit-config.yaml') }}"
@@ -34,7 +53,7 @@ jobs:
         ruby-version: ["3.3", "3.4"]
     steps:
       - name: "Check out repository"
-        uses: "actions/checkout@v7"
+        uses: "actions/checkout@v7.0.1"
       - name: "Build site"
         run: "make build RUBY_VERSION=${{ matrix.ruby-version }}"
         env:
