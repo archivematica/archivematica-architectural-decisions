@@ -11,8 +11,31 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: "Check out repository"
-        uses: "actions/checkout@v4"
-      - name: "Set up Python"
-        uses: "actions/setup-python@v5"
-      - name: "Run pre-commit"
-        uses: "pre-commit/action@v3.0.1"
+        uses: "actions/checkout@v7"
+      - name: "Set up uv"
+        uses: "astral-sh/setup-uv@v10"
+        with:
+          enable-cache: true
+      - name: "Cache pre-commit hooks"
+        uses: "actions/cache@v6"
+        with:
+          path: "~/.cache/pre-commit"
+          key: "pre-commit|${{ runner.os }}|${{ hashFiles('.pre-commit-config.yaml') }}"
+      - name: "Run checks"
+        run: "make check"
+  build:
+    name: "Build"
+    runs-on: "ubuntu-latest"
+    permissions:
+      contents: "read"
+      pages: "read"
+    strategy:
+      matrix:
+        ruby-version: ["3.3", "3.4"]
+    steps:
+      - name: "Check out repository"
+        uses: "actions/checkout@v7"
+      - name: "Build site"
+        run: "make build RUBY_VERSION=${{ matrix.ruby-version }}"
+        env:
+          JEKYLL_GITHUB_TOKEN: "${{ github.token }}"

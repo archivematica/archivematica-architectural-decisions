@@ -8,6 +8,10 @@ include:
 exclude:
 - Gemfile
 - Gemfile.lock
+- Makefile
+- pyproject.toml
+- uv.lock
+- vendor/
 theme: jekyll-theme-primer
 sass:
   style: compressed
