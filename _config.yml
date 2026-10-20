@@ -8,3 +8,6 @@ include:
 exclude:
 - Gemfile
 - Gemfile.lock
+theme: jekyll-theme-primer
+sass:
+  style: compressed
