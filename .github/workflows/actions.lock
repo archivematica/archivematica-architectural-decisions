@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/test.yml':
         - 'actions/cache@v6.1.0'
         - 'actions/checkout@v7.0.1'
-        - 'astral-sh/setup-uv@v10.3.0'
+        - 'astral-sh/setup-uv@v10.3.1'
 dependencies:
     'actions/cache@v6.1.0':
         ref: 'v6.1.0'
@@ -18,8 +18,8 @@ dependencies:
         commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
         owner_id: 44036562
         repo_id: 197814629
-    'astral-sh/setup-uv@v10.3.0':
-        ref: 'v10.3.0'
-        commit: 'sha1-1c37ad07a6a961277cf70c0d37d6f313000f5884'
+    'astral-sh/setup-uv@v10.3.1':
+        ref: 'v10.3.1'
+        commit: 'sha1-18d369b23da25a81e9458561248e1aafff6a70fa'
         owner_id: 115962839
         repo_id: 846733598
